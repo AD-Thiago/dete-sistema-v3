@@ -1,0 +1,43 @@
+{
+  "name": "dete-sistema-v3",
+  "version": "3.0.0",
+  "description": "Sistema completo de gestão de cuidados de saúde com integração Google Workspace",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1",
+    "dev": "npx http-server -p 8000 -c-1 --cors",
+    "build": "echo 'No build needed - static files'",
+    "test": "echo 'Tests coming soon'",
+    "lint": "eslint js/**/*.js",
+    "format": "prettier --write \"**/*.{js,json,html,css,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AD-Thiago/dete-sistema-v3.git"
+  },
+  "keywords": [
+    "healthcare",
+    "management",
+    "pwa",
+    "google-sheets",
+    "indexeddb",
+    "caregiving",
+    "medical"
+  ],
+  "author": "TCruz <thiago@analisandodados.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AD-Thiago/dete-sistema-v3/issues"
+  },
+  "homepage": "https://github.com/AD-Thiago/dete-sistema-v3#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
